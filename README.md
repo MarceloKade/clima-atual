@@ -21,10 +21,10 @@ O objetivo deste projeto é criar uma aplicação web que permita aos usuários 
 
 - [X] Configuração inicial do projeto com Next.js e React.js.
 - [x] Obtenção de dados de previsão do tempo através da api OpenWeatherMap.
-- [ ] Criação de páginas:
-  - [ ] Página inicial para exibir a previsão do tempo atual.
-  - [ ] Página de pesquisa para permitir que os usuários insiram a localização desejada.
-  - [ ] Página de detalhes para mostrar informações mais detalhadas sobre o clima.
+- [x] Criação de páginas:
+  - [x] Página inicial para exibir a previsão do tempo atual.
+  - [x] Página de pesquisa para permitir que os usuários insiram a localização desejada.
+  - [x] Página de detalhes para mostrar informações mais detalhadas sobre o clima.
 - [ ] Integração da API de previsão do tempo:
   - [ ] Criação de utilitário ou componente para fazer requisições à API utilizando a chave de API.
   - [ ] Extração e exibição das informações relevantes da resposta da API nas páginas.
