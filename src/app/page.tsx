@@ -1,10 +1,10 @@
-import { Search } from "@/components/Search";
+import HomePage from "@/components/HomePage";
 
 export default function Home() {
   return (
     <main>
       <div>
-        <Search type="string" />
+        <HomePage />
       </div>
     </main>
   )
