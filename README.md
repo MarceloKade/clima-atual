@@ -22,18 +22,18 @@ O objetivo deste projeto é criar uma aplicação web que permita aos usuários 
 - [X] Configuração inicial do projeto com Next.js e React.js.
 - [X] Instalação das dependências.
 - [X] Obtenção de dados de previsão do tempo através da API OpenWeatherMap.
-- [ ] Página inicial para exibir a previsão do tempo atual e permitir a pesquisa de outras localidades.
+- [x] Página inicial para exibir a previsão do tempo atual
 - [ ] Estilização das páginas e componentes utilizando Tailwind CSS.
 
 
 ## Tecnologias
 
-Este projeto utiliza as seguintes tecnologias:
 - Next.js.
 - TypeScript.
 - Tailwind CSS
 - Axios.
 - OpenWeatherMap.
+- Nominatim/OpenStreetMap
 
 ## Status
 

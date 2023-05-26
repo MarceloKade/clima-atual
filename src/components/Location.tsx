@@ -23,7 +23,7 @@ export default function Location() {
     }
 
     return (
-        <div className="flex flex-col items-center mt-40 text-3xl">
+        <div className="flex flex-col items-center mt-20 text-3xl">
             <p className='text-6xl'>{weather.name}</p>
             <p>{weather.temperature}°C</p>
             <p>{weather.humidity}%</p>

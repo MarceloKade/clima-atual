@@ -1,11 +1,11 @@
-import HomePage from "./pages/atual/page";
+import Location from "@/components/Location";
 
 
 export default function Home() {
   return (
     <main>
       <div>
-        <HomePage />
+        <Location />
       </div>
     </main>
   )

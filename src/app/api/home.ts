@@ -75,11 +75,22 @@ export const getWeatherData = async (): Promise<WeatherData> => {
 
     const cityWithState = stateAbbreviation ? `${name} (${stateAbbreviation})` : name;
 
+    let translatedDescription =
+      description === 'sunny'
+        ? 'Ensolarado'
+        : description === 'cloudy'
+        ? 'Nublado'
+        : description === 'light rain'
+        ? 'Chuva leve'
+        : description === 'clear sky'
+        ? 'Céu limpo'
+        : description;
+
     const weatherData: WeatherData = {
       name: cityWithState,
       temperature: temperatureInCelsius,
       humidity,
-      description,
+      description: translatedDescription,
       state,
       localTime,
     };
