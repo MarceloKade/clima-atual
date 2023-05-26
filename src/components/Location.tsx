@@ -23,11 +23,12 @@ export default function Location() {
     }
 
     return (
-        <div className="flex flex-col items-center mt-40">
-            <p>Localização: {weather.name}</p>
-            <p>Temperatura: {weather.temperature}°C</p>
-            <p>Umidade: {weather.humidity}%</p>
-            <p>Descrição: {weather.description}</p>
+        <div className="flex flex-col items-center mt-40 text-3xl">
+            <p className='text-6xl'>{weather.name}</p>
+            <p>{weather.temperature}°C</p>
+            <p>{weather.humidity}%</p>
+            <p>{weather.description}</p>
+            <p>{weather.localTime}</p>
         </div>
     );
 }
