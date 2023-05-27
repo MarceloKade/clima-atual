@@ -11,11 +11,11 @@
 
 ## Apresentação
 
-Aplicação de clima do tempo desenvolvida utilizando Next.js para fornecer informações sobre a previsão do tempo de diferentes localidades.
+Aplicação de clima do tempo desenvolvida utilizando Next.js para fornecer informações sobre a previsão do tempo na localização atual.
 
 ## Objetivo
 
-O objetivo deste projeto é criar uma aplicação web que permita aos usuários obter informações atualizadas sobre a previsão do tempo em diversas cidades.
+O objetivo deste projeto é criar uma aplicação web que permita aos usuários obter informações atualizadas sobre a previsão do tempo na localização atual.
 
 ## Funcionalidades
 
