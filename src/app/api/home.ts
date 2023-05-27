@@ -43,6 +43,8 @@ export interface WeatherData {
   description: string;
   state: string;
   localTime: string;
+  imageByTime: string;
+  imageByDescription: string;
 }
 
 export const getWeatherData = async (): Promise<WeatherData> => {
@@ -74,26 +76,56 @@ export const getWeatherData = async (): Promise<WeatherData> => {
     const localTime = new Date(localTimeResponse.data.datetime).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
 
     const cityWithState = stateAbbreviation ? `${name} (${stateAbbreviation})` : name;
-
-    let translatedDescription =
+      
+    const translatedDescription =
       description === 'sunny'
         ? 'Ensolarado'
         : description === 'cloudy'
         ? 'Nublado'
+        : description === 'scattered clouds'
+        ? 'Núvens dispersas'
         : description === 'light rain'
         ? 'Chuva leve'
+        : description === 'broken clouds'
+        ? 'Núvens fragmentadas'
         : description === 'clear sky'
         ? 'Céu limpo'
+        : description === 'few clouds'
+        ? 'Poucas núvens'
         : description;
 
-    const weatherData: WeatherData = {
-      name: cityWithState,
-      temperature: temperatureInCelsius,
-      humidity,
-      description: translatedDescription,
-      state,
-      localTime,
-    };
+        const imageByDescription =
+        description === 'sunny'
+          ? 'sunny.png'
+          : description === 'cloudy'
+          ? 'cloudy.png'
+          : description === 'light rain'
+          ? 'light-rain.png'
+          : description === 'clear sky'
+          ? 'clear.png'
+          : description === 'few clouds'
+          ? 'few-clouds.png'
+          : description === 'broken clouds'
+          ? 'broken-clouds.png'
+          : description === 'scattered clouds'
+          ? 'scattered-clouds.png'
+          : 'clear.png';
+
+        const imgSunny = 'sunny.png';
+        const imgMoon = 'moon.png';
+        const imageByTime =
+        parseInt(localTime.substring(0, 2)) >= 6 && parseInt(localTime.substring(0, 2)) <= 18 ? imgSunny : imgMoon;
+      
+      const weatherData: WeatherData = {
+        name: cityWithState,
+        temperature: temperatureInCelsius,
+        humidity,
+        description: translatedDescription,
+        state,
+        localTime,
+        imageByTime,
+        imageByDescription,
+      };
 
     return weatherData;
   } else {
