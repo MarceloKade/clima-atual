@@ -23,13 +23,26 @@ export default function Location() {
     }
 
     return (
-        <div className="flex flex-col items-center mt-20 text-3xl">
-            <p className='text-6xl'>{weather.name}</p>
-            <p>{weather.temperature}°C</p>
-            <p>{weather.humidity}%</p>
+        <div className="flex flex-col items-center mt-28 text-3xl">
+            <p className="text-clamp">{weather.name}</p>
+            <p className="mt-20 text-5xl">{weather.temperature}°</p>
+            <div className="flex items-center justify-center w-[11em]">
+                <img className="w-auto h-auto mt-20 mb-20" src={weather.imageByDescription} alt="Weather Image" />
+            </div>
             <p>{weather.description}</p>
-            <p>{weather.localTime}</p>
+            <div className="flex items-center justify-center">
+                <div className="flex items-center justify-center mt-4">
+                    <div className="flex items-center justify-center w-[4em]">
+                        <img className="w-[20%] h-[20%]" src="drop.png" alt="" />
+                        <p>{weather.humidity}%</p>
+                    </div>
+                    <div className="flex items-center justify-center w-[4em]">
+                        <img className="w-[20%] h-[20%]" src={weather.imageByTime} alt="Weather Image" />
+                        <p>{weather.localTime}</p>
+                    </div>
+                </div>
+            </div>
         </div>
+
     );
 }
-
