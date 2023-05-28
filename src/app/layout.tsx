@@ -6,12 +6,12 @@ const roboto = Roboto({ subsets: ['latin'], variable: '--font-roboto' })
 
 export const metadata = {
   title: 'Clima atual',
-  description: 'Uma aplicação que mostra o clima da localização da cidade do usuário, com opção de buscar informações sobre o clima de outras cidades e com opção de obter detalhes sobre o clima, feita com Next.js, React.js, TypeScript e TailwindCSS',
+  description: 'Uma aplicação que mostra o clima da localização atual, feita com Next.js, TypeScript e TailwindCSS, Axios, OpenWeatherMap, Nominatim e WorldTime',
 }
 
 export default function RootLayout({ children, }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="pt-br">
       <body className={`${roboto.variable} bg-gray-900 font-sans text-gray-100 `}>{children}</body>
     </html>
   )
