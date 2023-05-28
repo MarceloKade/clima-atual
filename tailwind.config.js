@@ -1,4 +1,5 @@
-/** @type {import('tailwindcss').Config} */
+// tailwind.config.js
+
 module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -8,9 +9,12 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: 'var(--font-roboto)',
+        sans: ['var(--font-roboto)', 'sans-serif'],
+      },
+      fontSize: {
+        clamp: ['clamp(1.5rem, 10vw, 4rem)'],
       },
     },
   },
   plugins: [],
-}
+};
