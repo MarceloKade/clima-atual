@@ -1,5 +1,13 @@
 # Aplicação de Clima do Tempo com Next.js
 
+<br>
+
+<a href="https://clima-localizacao-atual.netlify.app/" title="Clique aqui para acessar o">
+<img width="3161" alt="previsao-tempo" src="https://github.com/MarceloKade/clima-atual/assets/98852912/6287aa5d-b880-4d69-82bf-bb1e845bfbc9">
+</a>
+<br>
+<br>
+
 ## Menu
 
 - [Aplicação de Clima do Tempo com Next.js](#aplicação-de-clima-do-tempo-com-nextjs)
@@ -9,6 +17,8 @@
   - [Tecnologias](#tecnologias)
   - [O que aprendi](#o-que-aprendi)
   - [Status](#status)
+  - [Contato](#contato)
+  
 
 ### Apresentação
 
@@ -49,3 +59,14 @@ Durante o desenvolvimento deste projeto, aprendi diversas habilidades e conceito
 ### Status
 
 - Completed: [![Netlify Status](https://api.netlify.com/api/v1/badges/5433c841-e738-419e-912f-d93faeac3678/deploy-status)](https://app.netlify.com/sites/clima-localizacao-atual/deploy)
+
+### Contato
+
+Caso tenha alguma sugestão ou queira entrar em contato, fico a disposição.
+
+<br>
+
+<div>
+  <a href="https://www.linkedin.com/in/marcelokade/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+  <a href = "mailto:marcelo.kade@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+</div>
