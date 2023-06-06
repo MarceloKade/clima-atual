@@ -2,7 +2,7 @@
 
 <br>
 
-<a href="https://clima-localizacao-atual.netlify.app/" title="Clique aqui para acessar o">
+<a href="https://clima-localizacao-atual.netlify.app/" title="Clique aqui para acessar o projeto">Clique aqui para acessar o projeto
 <img width="3161" alt="previsao-tempo" src="https://github.com/MarceloKade/clima-atual/assets/98852912/6287aa5d-b880-4d69-82bf-bb1e845bfbc9">
 </a>
 <br>
