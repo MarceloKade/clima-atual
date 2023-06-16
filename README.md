@@ -58,7 +58,7 @@ Durante o desenvolvimento deste projeto, aprendi diversas habilidades e conceito
 - **Estilização eficiente com Tailwind CSS:** Explorei a utilização do Tailwind CSS para estilizar os componentes do projeto. Através de suas classes utilitárias, pude criar uma aparência visual agradável e responsiva de maneira eficiente. Aprendi a utilizar as classes disponíveis e a personalizar o estilo conforme necessário, otimizando assim o processo de estilização.
 ### Status
 
-- Completed: [![Netlify Status](https://api.netlify.com/api/v1/badges/5433c841-e738-419e-912f-d93faeac3678/deploy-status)](https://app.netlify.com/sites/clima-localizacao-atual/deploy)
+- Completed: [![Netlify Status](https://api.netlify.com/api/v1/badges/5433c841-e738-419e-912f-d93faeac3678/deploy-status)](https://app.netlify.com/sites/clima-localizacao-atual/deploys)
 
 ### Contato
 
